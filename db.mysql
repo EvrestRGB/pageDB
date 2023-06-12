@@ -1,0 +1,14 @@
+CREATE DATABASE nom_base_de_donnees;
+
+USE nom_base_de_donnees;
+
+CREATE TABLE utilisateurs (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nom VARCHAR(50),
+    age INT
+);
+
+INSERT INTO utilisateurs (nom, age) VALUES
+    ('John Doe', 25),
+    ('Jane Smith', 30),
+    ('Bob Johnson', 40);
